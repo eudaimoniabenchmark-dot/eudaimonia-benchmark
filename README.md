@@ -1,6 +1,6 @@
 # Eudaimonia Benchmark
 
-This repository contains an anonymized benchmark artifact for studying social
+This repository contains a benchmark artifact for studying social
 behavior in AI assistant responses. It includes the final benchmark dataset,
 measure definitions, and scripts used for filtering, synthetic generation,
 evaluation, and analysis.
