@@ -1,5 +1,3 @@
-"""Sort Stage 7.2 judge results by user_input → measure → model family/recency."""
-
 import argparse
 import json
 

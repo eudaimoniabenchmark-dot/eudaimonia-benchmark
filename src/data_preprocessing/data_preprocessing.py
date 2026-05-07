@@ -1,16 +1,4 @@
-"""Stage 5 v2 — combined new + previous final_filter outputs, batched single/multi
-classification, NO chitchat veto.
-
-Differences from v1 (`data_preprocessing.py`):
-  1. Reads from a hand-curated list of (source_path, measure) pairs spanning
-     both the current and previous experiment outputs, so we mix re-run
-     new-prompt measures with measures that did not get re-run.
-  2. NO chitchat veto. v1's veto dropped any user_input with chitchat_keep=false
-     in any measure; v2 keeps every both-keep row regardless.
-  3. Batched single/multi classification: one Opus 4.6 call labels 10 messages
-     at a time instead of one. ~10x fewer API calls. DSPy disk cache.
-  4. Phase 3 (semantic dedup) runs only on the single-turn subset, same as v1.
-
+"""
 Usage:
     cd <project-root>
     BENCHMARK_PREVIOUS_EXPERIMENTS=<path> \\

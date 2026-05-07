@@ -1,5 +1,4 @@
-"""Stage 7.3 - Analysis outputs for the Stage 7 evaluation.
-
+"""
 This script produces figure/table artifacts for the planned paper analyses.
 It intentionally writes evidence for paragraphs, not the paragraphs
 themselves.

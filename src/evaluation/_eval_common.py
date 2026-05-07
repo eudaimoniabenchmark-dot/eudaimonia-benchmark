@@ -1,5 +1,4 @@
-"""Shared constants and helpers for the Stage 7 evaluation pipeline.
-
+"""
 Used by:
   - generate_responses.py (Stage 7.1)
   - judge_responses.py    (Stage 7.2)

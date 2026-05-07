@@ -1,5 +1,4 @@
-"""Stage 7.1 — Generate API/direct model responses for the evaluation set.
-
+"""
 Sends each `user_input` from `data/final_dataset.jsonl` (969 rows) to 23
 distinct model evaluations spanning 6 providers (Google, OpenAI, Anthropic,
 xAI, DeepSeek, Qwen), including 3 different thinking-budget variants of

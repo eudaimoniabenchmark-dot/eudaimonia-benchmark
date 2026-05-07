@@ -1,5 +1,4 @@
-"""Stage 7.1 local-HF add-on generation through a local vLLM server.
-
+"""
 This is used for models that are available on Hugging Face but not currently
 routable through OpenRouter. Output rows intentionally match
 generate_responses.py:

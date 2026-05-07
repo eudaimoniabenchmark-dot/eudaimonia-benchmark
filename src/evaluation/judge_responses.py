@@ -1,5 +1,4 @@
-"""Stage 7.2 — LLM-as-judge evaluation of model responses.
-
+"""
 For every row produced by Stage 7.1 (one row per `user_input`, with a
 `model_responses` dict containing the generated model variants), this script
 judges every (input, model) pair against the row's labelled measures.

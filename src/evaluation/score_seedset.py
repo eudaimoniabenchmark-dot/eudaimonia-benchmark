@@ -1,5 +1,4 @@
-"""One-shot evaluator for `data/new_seedset.jsonl`.
-
+"""
 Phase A — Generate model responses for each user_input on:
   - openai/gpt-4o
   - anthropic/claude-sonnet-4

@@ -1,5 +1,4 @@
-"""Merge local-HF Stage 7.1 response shards into the main response JSONL.
-
+"""
 The local generator writes one model column per row in part files like:
 
     data/eval_responses_local_qwen_qwen3_4b_part_0.jsonl
